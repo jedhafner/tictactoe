@@ -2,17 +2,22 @@
 <head>
     <link rel = "stylesheet" href="index.css">
     <meta charset="UTF-8">
-    <title>Tic-Tac-Toe</title>
-    <h1>TIC TAC TOE</h1>
+    <title>Tic Tac Toe</title>
+    <h1>Tic Tac Toe</h1>
 </head>
 <body>
-    <div id = 'player1'>
-
+    <div id = 'playerSelect'>
+        <div class = 'twoPlayer, active'>2 player</div>
+        <div class = 'manVMachine'>Man v. Machine</div>
     </div>
-    <div id = 'boardArea'>
-    </div>
-    <div id = 'player1'>
-        
-    </div>
-    <script src="index.js"></script>
+    <div id = 'boardArea'></div>
 </body>
+
+<div class = 'scoreboard'>
+        <span id = 'player1score'></span>
+        <div id = 'player1' class = 'active'>P1</div>
+        <div id = 'player2'>P2</div>
+        <span id = 'player2score'></span>
+</div>
+<script src="index.js"></script>
+

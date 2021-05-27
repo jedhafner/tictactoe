@@ -7,6 +7,10 @@ body{
     align-items: center;
     font-family: sans-serif;
 }
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+}
 #boardArea{
     position: relative;
     box-sizing: border-box;
@@ -59,4 +63,39 @@ body{
 }
 .ghost{
     display: none;
+}
+
+#playerSelect {
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#playerSelect div{
+    box-sizing: border-box;
+    text-align: center;
+    width: 155px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid grey;
+}
+#playerSelect div:hover{
+    cursor: pointer;
+}
+
+.scoreboard div{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.active {
+    background: blue;
+    color: white;
+    font-style: bold;
 }
