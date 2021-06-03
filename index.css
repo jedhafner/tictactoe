@@ -39,23 +39,28 @@ body{
 
 .display{
     box-sizing: border-box;
-    font-size: 60px;
-    height: 194px;
-    width: 394px;
+    height: 400px;
+    width: 100%;
     position: absolute;
-    top: 100px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     align-content: center;
     justify-content: center;
-    background: rgba(165, 163, 165, 0.8);
+    background: rgba(0, 0, 0, 0.02);
     padding-top:20px;
 }
-.newGame{
-    font-size: 20px;
+.display div{
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 40px;
+    width: 100%;
     text-align: center;
     justify-content: center;
-    background: rgba(230, 230, 230, 0.9);
-    padding: 10px;
+    background: rgba(165, 163, 165, 0.8);
+    padding: 12px;
 
 }
 .newGame:hover{
